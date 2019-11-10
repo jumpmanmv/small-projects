@@ -4,14 +4,16 @@
 	=================================================================
 
 	Sorts elements in ascending order using the selection sort algorithm.
+
 	Selection sort finds the correct spot for the minimum element one at a time, starting with the first
 	and finishing with the last.
+
 	This algorithm works on arrays, vectors, and other containers as long as they have the [] operator.
 	The algorithm works on integers, doubles, chars, string and other data types as long as they can be compared.
-
+	
 	=================================================================
 
-	Time complexity: O(n^2) for the worst case
+	Time complexity: O(n^2)
 	Space complexity: O(1)
 	Stability: Not stable by default, but can be made by pushing the minimum element to the front each time instead of swapping
 	the elements.
