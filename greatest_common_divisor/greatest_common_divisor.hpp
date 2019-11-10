@@ -14,7 +14,7 @@
 	If both a and b are 0, then the output of the algorithm is 0. This isn't correct, since the answer to that is usually undefined.
 	=================================================================================
 
-	TIME COMPLEXITY: upper limit is O(log2(n)) where n is min(a, b)
+	Time Complexity: upper limit is O(log2(n)) where n is min(a, b)
 */
 
 #ifndef GREATEST_COMMON_DIVISOR_HPP

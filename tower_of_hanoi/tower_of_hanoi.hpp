@@ -9,9 +9,9 @@
 
 	===============================================================
 
-	Time complexity O(2^n - 1), where n is the initial number of disks.
+	Time complexity: upper limit it O(2^n - 1), where n is the initial number of disks.
 
-	Space complexity O(1)
+	Space complexity: O(1)
 */
 
 // N symbolizes the number of disks (numbered from the smallest "1" to the biggest "N")
