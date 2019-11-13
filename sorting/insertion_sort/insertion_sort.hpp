@@ -10,7 +10,7 @@
 
 	This algorithm works on arrays, vectors and other containers as long as they
     have the [] operator and their elements can be compared. The algorithm works on integers, doubles,
-    chars, strings and other data types as long as they can be compared.
+    chars, strings and other data types as long as they can be compared (with the < and > symbols).
 	
 	=================================================================
 
