@@ -9,6 +9,7 @@
 	swapping them if their relative order is wrong.
 	In this implementation we use an optimized version that finishes when it detects that the order
 	is already correct.
+
 	This algorithm works on arrays, vectors and other containers as long as they
 	have the [] operator and their elements can be compared. The algorithm works on integers, doubles,
 	chars, strings and other data types as long as they can be compared.

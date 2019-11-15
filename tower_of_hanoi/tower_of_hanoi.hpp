@@ -1,16 +1,20 @@
 /* 
-	tower_of_hanoi.cpp
+	tower_of_hanoi.hpp
 	created on 8/11/2019
 	
 	================================================================
 
-	Algorithm that solves the tower of Hanoi puzzle.
-	The algorithm utilizes recursion. In this case we solve the puzzle by typing the command that the player must follow (e.g "Move disk 1 from A to C")
+	Algorithm that solves the Tower of Hanoi puzzle.
+	The Tower of Hanoi is an elegant mathematical puzzle. The game starts with all disks in peg A in ascending order
+	from bottom to top.	The goal is to move all the disks from peg 'A' to peg 'C' moving 1 disk at a time.
+	The player cannot place a bigger disk op top of a smaller disk.
+
+	This solution utilizes recursion. In this case we solve the puzzle by typing the command that
+	the player must follow (e.g "Move disk 1 from (peg) A to (peg) C")
 
 	===============================================================
 
-	Time complexity: upper limit it O(2^n - 1), where n is the initial number of disks.
-
+	Time complexity:  O(2^n - 1), where n is the initial number of disks.
 	Space complexity: O(1)
 */
 
