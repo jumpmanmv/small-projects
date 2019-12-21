@@ -14,6 +14,7 @@ So far the repository includes:
   - Selection Sort
   - Insertion Sort
   - Heap Sort
+  - Radix Sort
 - GCD (finding the greatest common divisor)
 - Tower of Hanoi
 - Abstract data types
