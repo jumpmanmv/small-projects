@@ -13,7 +13,7 @@ So far the repository includes:
   - Bubble Sort
   - Selection Sort
   - Insertion Sort
-  - HeapSort
+  - Heapsort
   - Radix Sort
   - Quicksort
 - GCD (finding the greatest common divisor)
