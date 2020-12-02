@@ -1,4 +1,4 @@
-#include "insertion_sort.hpp"
+#include "quicksort.hpp"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -21,7 +21,7 @@ int main()
 	for (int i = 0; i < n; i++) {
 		std::cout << v[i] << " ";
 	}	
-	insertion_sort(v, n);
+	quicksort(v, n);
 	std::cout << '\n' << "After sorting: " << '\n';
 	for (int i = 0; i < n; i++) {
 		std::cout << v[i] << " ";
