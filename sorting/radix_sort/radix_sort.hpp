@@ -60,7 +60,7 @@ void count_sort(T &cont, int n, int pos)
 		digit[get_digit(cont[i], pos)]++;
 	}
 	for (int i = 1; i <= 9; i++) {
-		digit[i] += digit[i-1]; // accumulate
+		digit[i] += digit[i-1]; // keeps a running sum
 	}
 	int temp_arr[n] = {0};
 	for (int j = n-1; j >= 0; j--) {
